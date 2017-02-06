@@ -29,7 +29,7 @@ class InvestmentController extends Controller
     public function create()
     {
 
-        $customers = Customer::lists('name','cust_number');
+        $customers = Customer::lists('name','id');
         return view('investments.create', compact('customers'));
     }
 

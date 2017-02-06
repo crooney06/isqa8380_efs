@@ -29,7 +29,7 @@ class StockController extends Controller
     public function create()
     {
 
-        $customers = Customer::lists('name','cust_number');
+        $customers = Customer::lists('name','id');
         return view('stocks.create', compact('customers'));
     }
 

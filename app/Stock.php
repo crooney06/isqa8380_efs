@@ -18,6 +18,6 @@ class Stock extends Model
     ];
 
     public function customer() {
-        return $this->belongsTo('App\Customer','customer_id', 'cust_number');
+        return $this->belongsTo('App\Customer','customer_id', 'id');
     }
 }
