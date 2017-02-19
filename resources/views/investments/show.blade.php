@@ -32,4 +32,6 @@
             </tbody>
         </table>
     </div>
+    <a href="{{url('/investments')}}" class="btn btn-primary">Back to Investment List</a>
+    <div><br></div>
 @stop

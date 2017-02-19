@@ -28,4 +28,6 @@
             </tbody>
         </table>
     </div>
+    <a href="{{url('/stocks')}}" class="btn btn-primary">Back to Stock List</a>
+    <div><br></div>
 @stop
