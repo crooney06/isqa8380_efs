@@ -166,9 +166,9 @@
                 <tr>
                     <td>{{ $investment->category }}</td>
                     <td>{{ $investment->description }}</td>
-                    <td>{{ number_format($investment->acquired_value,2) }}</td>
+                    <td align="right">{{ number_format($investment->acquired_value,2) }}</td>
                     <td>{{ $investment->acquired_date }}</td>
-                    <td>{{ number_format($investment->recent_value,2) }}</td>
+                    <td align="right">{{ number_format($investment->recent_value,2) }}</td>
                     <td>{{ $investment->recent_date }}</td>
 
                 </tr>
